@@ -1,0 +1,73 @@
+#Header{
+    color: #f0f0f0;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(59, 59, 59);
+    margin: 5px;
+    font-family: Helvetica;
+}
+
+#Header2{
+    color: #f0f0f0;
+    text-align: center;
+    font-size: larger;
+    background-color:  grey;
+    word-spacing: 30px;
+    margin: 5px;
+    height: 30px;
+    font-family: Helvetica;
+    position: relative;
+    top: -40px;
+}
+
+#main-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: baseline;
+    gap: 10px;
+}
+
+
+#Lcontent{
+    float: left;
+    background-color:  rgb(202, 202, 202);
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    position: relative;
+    top: -150px; 
+    font-family: Helvetica;
+}
+
+#photo-container{
+    margin: 10px;
+    display: grid;
+    background-color: rgb(202, 202, 202);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 800px;
+    font-family: Helvetica;
+}
+
+#Rcontent{
+    float: right;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 500px;
+    background-color:  rgb(202, 202, 202);
+    padding: 20px;
+    position: relative;
+    top: -150px; 
+    font-family: Helvetica;
+}
+
+#bottomcontent{
+    background-color:  rgb(59, 59, 59);
+    color: #f0f0f0;
+    font-family: Helvetica;
+    padding: 20px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    top: -100px; 
+}
