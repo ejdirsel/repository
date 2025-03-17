@@ -1,0 +1,22 @@
+header{
+    background-color: pink;
+}
+nav{
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.active{
+    font-weight: bold;
+    background-color: lightcoral;
+}
+#main_container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+#left{
+    background-color: plum;
+}
+#right{
+    background-color: light palevioletred;
+}

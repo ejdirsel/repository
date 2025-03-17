@@ -1,0 +1,51 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background('#83e1ff');
+  //saule
+  stroke("#bbcf4b");
+  strokeWeight(15);
+  fill("#F3FF90");
+  ellipse(15,15,60,60);
+  //makonis
+  noStroke()
+  fill("#F8F8F8");
+  ellipse(300,15,120,60);
+  noStroke()
+  fill("#F8F8F8");
+  ellipse(200,40,120,60);
+  noStroke()
+  fill("#F8F8F8");
+  ellipse(100,150,120,60);
+   //zeme
+  noStroke();
+  fill("#487f44");
+  rect(0,270,400,130);
+  //māja
+  noStroke();
+  fill("#FFBF70");
+  rect(100,150,200,150);
+  //jumts
+  fill("#A25E5E");
+  triangle(90,150,200,100,310,150)
+  //pamats
+  noStroke()
+  fill("#575757")
+  rect(96,290,208,10)
+  //logs
+  stroke("#5F5336")
+  strokeWeight(2)
+  fill("#a2c7d3")
+  rect(130,190,50,65)
+  //durvis
+  stroke("#5F5336")
+  strokeWeight(2)
+  fill("#7e6b3f")
+  rect(210,200,60,100)
+  //skurstenis
+  noStroke()
+  fill("#A25E5E")
+  rect(120,100,30,50)
+}
